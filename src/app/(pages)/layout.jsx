@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
   //   }
 
   return (
-    <div>
+    <div className="min-h-screen">
       <Navbar />
       {children}
       {/* <Footer /> */}
